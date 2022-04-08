@@ -21,15 +21,15 @@ public boolean add(String nome,String email, String telefone ) {
 	
 }
 
-public String[] getNome() {
+public String[] getNome() {  // para obter informações
 	return nome;
 }
 
-public void setNome(String[] nome) {
+public void setNome(String[] nome) {  // para definir valores
 	this.nome = nome;
 }
 
-public String getEmail() {
+public String getEmail() {   //para obter informações
 	return email;
 }
 
@@ -60,5 +60,10 @@ public void limparLista(String telefone) {
 	this.telefone = telefone;
 	
 }
+	public void consultar(String[] nome, String email, String telefone) {
+		this.nome = nome;
+		this.email = email;
+		this.telefone = telefone;
+
 }
 
