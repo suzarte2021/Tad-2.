@@ -61,9 +61,6 @@ public void limparLista(String telefone) {
 	
 }
 	public void consultar(String[] nome, String email, String telefone) {
-		this.nome = nome;
-		this.email = email;
-		this.telefone = telefone;
-
+		//@todo
 }
 
