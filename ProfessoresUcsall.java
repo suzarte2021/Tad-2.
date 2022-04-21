@@ -3,7 +3,7 @@ package ProfessoresUcsal;
 
 	public interface  ProfessoresUcsall {
 
-		public boolean add(String nome,String email, String telefone );
+		public boolean inclusao(String nome,String email, String telefone );
 		public String[] getNome();
 		public void setNome(String[] nome);
 		public String getEmail();
