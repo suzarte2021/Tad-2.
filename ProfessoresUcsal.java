@@ -16,7 +16,7 @@ this.telefone = telefone;
 
 }
 
-public boolean add(String nome,String email, String telefone ) {
+public boolean inclusao(String nome,String email, String telefone ) {
 	return true;
 	
 }
